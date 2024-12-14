@@ -1,0 +1,140 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+body{
+	width:1024px;
+	height:1200px;
+	margin:auto;
+}
+header{
+	width:1024px;
+	height:25px;
+	background-image: linear-gradient(#000,#999);
+}
+.banner{
+	width:1024px;
+	height:100px;
+	background-image:url(../photo/banner.jpg);
+}
+.menu{
+	width:1024px;
+	height:25px;
+	background-image: linear-gradient(#999,#000);
+	margin:auto;
+}
+.menu ul{
+	list-style:none;
+}
+.menu ul li{
+	padding-right:10px;
+	display:inline-block;
+	margin-left:10px;
+	margin-top:4px;
+	border-right:2px solid #666;
+}
+.menu ul li:hover a{
+	background-color:#999;
+}
+.menu ul li a{
+	text-decoration:none;
+	color:white;
+	font-family:"Times New Roman", Times, serif;
+	font-size:14px;
+}
+.space{
+	background:none;
+	width:100%;
+	height:30px;
+}
+.banner1{
+	width:800px;
+	height:100px;
+	float:left;
+	background-color:#E07840;
+}
+.anh{
+	background-image:url(../photo/banner1.gif);
+	width:540px;
+	height:100px;
+	margin:auto;
+	z-index:999;
+}
+.content1{
+	margin-top:30px;
+	width:800px;
+	float:left;
+}
+.content1 table{
+	width:800px;
+	border-collapse:collapse;
+}
+.content1 table tr th{
+	padding-bottom:10px;
+	text-align:justify;
+}
+.content1 table tr td{
+	padding-bottom:10px;
+}
+.content2{
+	width:200px;
+	float:right;
+	margin-top:-100px;
+}
+.tile{
+	height:20px;
+	width:200px;
+	border:1px solid #090;
+	border-radius:5px;
+}
+.tile p{
+	margin-top:2px;
+	font-size:13px;
+	font-weight:bold;
+	color:#090;
+}
+#table1 tr td{
+	font-size:14px;
+	text-align:justify;
+	padding-bottom:10px;
+	padding-top:5px;
+	border-bottom:1px solid #666;
+}
+.tt table{
+	border-collapse:collapse;
+}
+.tt table tr td{
+	padding-bottom:5px;
+}
+#tt{
+	font-size:12px;
+	width:65px;
+	text-align:right;
+	display:inline-block;
+}
+#ktt{
+	width:100px;
+}
+#nd{
+	width:135px;
+	height:100px;
+}
+#nut{
+	margin-left:4px;
+}
+footer{
+	background-color:#CCC;
+	position:absolute;
+	top:733px;
+	width:1024px;
+	height:70px;
+	text-align:center;
+	margin:auto;
+}
+footer p{
+	margin-bottom:30px;
+}
+.chudam{
+	font-weight:bold;
+}
